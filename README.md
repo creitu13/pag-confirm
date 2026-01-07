@@ -1,1 +1,47 @@
-# pag-confirm
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Obrigado pela compra!</title>
+<style>
+  body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #4b6cb7, #182848);
+    color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    padding: 20px;
+    filter: brightness(0.9);
+  }
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5em;
+  }
+  p {
+    font-size: 1.25rem;
+    max-width: 450px;
+    line-height: 1.5;
+  }
+  .icon {
+    font-size: 4rem;
+    margin-top: 2em;
+    animation: bounce 1.8s infinite;
+  }
+  @keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(12px); }
+  }
+</style>
+</head>
+<body>
+  <h1>Obrigado pela sua compra!</h1>
+  <p>Seu pedido foi processado com sucesso. Em breve, você receberá um e-mail com os detalhes.</p>
+  <div class="icon">🎉</div>
+</body>
+</html>
